@@ -1,1 +1,11 @@
 .DS_Store
+
+# Exclude specific file types
+*.min.js
+*.config.js
+
+
+# Exclude node_modules and build directories
+node_modules/
+build/
+dist/
