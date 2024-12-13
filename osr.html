@@ -1,0 +1,121 @@
+<html>
+  <head>
+    <meta name="test" content="test" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <title>NEW OSR</title>
+    <style type="text/css">
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+        overflow: hidden;
+      }
+      iframe {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        border: 0;
+      }
+      .legal-info {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 60px;
+        text-align: center;
+        color: #fff;
+        font-size: 20px;
+        max-width: 1600px;
+        margin: 0 auto;
+        text-transform: uppercase;
+        font-weight: bold;
+        z-index: 99999;
+      }
+      @media (min-width: 1600px) {
+        .legal-info {
+          bottom: 20px;
+        }
+      }
+      /* Style recaptcha box before continuing to the form */
+      /* Full page container for positioning */
+      .recaptcha-container {
+        position: relative;
+        height: 100vh; /* Full viewport height */
+        width: 100vw; /* Full viewport width */
+        background-color: #000;
+      }
+
+      /* Centering the reCAPTCHA using absolute positioning */
+      .g-recaptcha {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-99938985-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-99938985-1");
+    </script>
+
+    <!-- reCAPTCHA widget -->
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+
+    <!-- Container for the reCAPTCHA -->
+    <div class="recaptcha-container">
+      <div
+        class="g-recaptcha"
+        data-sitekey="6Lck_zYqAAAAANi_tJkW8_B3jnmpjKGEwc8ITedf"
+        data-callback="onReCaptchaSuccess"
+      ></div>
+    </div>
+
+    <!-- Typeform Embed (initially hidden) -->
+    <div
+      id="typeform-container"
+      style="display: none; width: 100%; height: 100vh"
+    >
+      <iframe
+        id="typeform-full"
+        width="100%"
+        height="100%"
+        frameborder="0"
+        allow="camera; microphone; autoplay; encrypted-media;"
+        src="https://form.typeform.com/to/Z07EG6it"
+      ></iframe>
+    </div>
+
+    <script>
+      function onReCaptchaSuccess() {
+        document.getElementById("typeform-container").style.display = "block";
+        document.querySelector(".recaptcha-container").style.display = "none"; // Hide reCAPTCHA after success
+      }
+    </script>
+
+    <script
+      type="text/javascript"
+      src="https://embed.typeform.com/embed.js"
+    ></script>
+    <div class="legal-info">
+      Your Security is Our Mission. Use our online service request tool with
+      confidence, knowing your information is safe and confidential.
+    </div>
+  </body>
+</html>
