@@ -1891,12 +1891,10 @@
                       zIndex: 0,
                       display: "none",
                     }),
-                    d.children
-                      .eq(d.settings.startSlide)
-                      .css({
-                        zIndex: d.settings.slideZIndex,
-                        display: "block",
-                      })),
+                    d.children.eq(d.settings.startSlide).css({
+                      zIndex: d.settings.slideZIndex,
+                      display: "block",
+                    })),
                   (d.controls.el = R('<div class="bx-controls" />')),
                   d.settings.captions && C(),
                   (d.active.last = d.settings.startSlide === u() - 1),
