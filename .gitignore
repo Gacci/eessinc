@@ -1,4 +1,7 @@
 .DS_Store
+Dockerfile
+nginx.conf
+
 
 # Exclude specific file types
 *.min.js

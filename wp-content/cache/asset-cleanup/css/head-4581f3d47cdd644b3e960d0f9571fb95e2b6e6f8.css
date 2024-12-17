@@ -8719,10 +8719,10 @@ form.submitting .wpcf7-spinner {
       format("embedded-opentype"),
     url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-solid-900.woff2)
       format("woff2"),
-    url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-solid-900.woff)
-      format("woff"),
-    url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-solid-900.ttf)
-      format("truetype"),
+    /* url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-solid-900.woff)
+      format("woff"), */
+    /* url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-solid-900.ttf)
+      format("truetype"), */
     url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-solid-900.svg)
       format("svg");
 }
@@ -8739,14 +8739,14 @@ form.submitting .wpcf7-spinner {
 /*!/wp-content/uploads/bb-plugin/icons/icon-1534346209/style.css*/
 @font-face {
   font-family: "eess";
-  src: url(../../../uploads/bb-plugin/icons/icon-1534346209/fonts/eess.eot?esoru3);
+  /* src: url("../../../uploads/bb-plugin/icons/icon-1534346209/fonts/eess.eot?esoru3"); */
   src:
     url("../../../uploads/bb-plugin/icons/icon-1534346209/fonts/eess.eot?esoru3")
       format("embedded-opentype"),
-    url(../../../uploads/bb-plugin/icons/icon-1534346209/fonts/eess.ttf?esoru3)
-      format("truetype"),
-    url(../../../uploads/bb-plugin/icons/icon-1534346209/fonts/eess.woff?esoru3)
-      format("woff"),
+    /* url("../../../uploads/bb-plugin/icons/icon-1534346209/fonts/eess.ttf?esoru3")
+      format("truetype"), */
+    /* url("../../../uploads/bb-plugin/icons/icon-1534346209/fonts/eess.woff?esoru3")
+      format("woff"), */
     url("../../../uploads/bb-plugin/icons/icon-1534346209/fonts/eess.svg?esoru3")
       format("svg");
   font-weight: 400;
