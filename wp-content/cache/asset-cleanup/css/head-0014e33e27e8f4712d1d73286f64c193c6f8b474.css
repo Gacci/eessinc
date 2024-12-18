@@ -6321,10 +6321,10 @@ form.submitting .wpcf7-spinner {
       format("embedded-opentype"),
     url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-brands-400.woff2)
       format("woff2"),
-    url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-brands-400.woff)
+    /* url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-brands-400.woff)
       format("woff"),
     url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-brands-400.ttf)
-      format("truetype"),
+      format("truetype"), */
     url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-brands-400.svg)
       format("svg");
 }
