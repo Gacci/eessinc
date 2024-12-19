@@ -6448,7 +6448,7 @@ form.submitting .wpcf7-spinner {
 /*!/wp-content/uploads/bb-plugin/icons/icon-1534346209/style.css*/
 @font-face {
   font-family: "eess";
-  src: url(../../../uploads/bb-plugin/icons/icon-1534346209/fonts/eess.eot?esoru3);
+  /* src: url(../../../uploads/bb-plugin/icons/icon-1534346209/fonts/eess.eot?esoru3); */
   src:
     url("../../../uploads/bb-plugin/icons/icon-1534346209/fonts/eess.eot?esoru3")
       format("embedded-opentype"),
