@@ -6326,7 +6326,7 @@ form.submitting .wpcf7-spinner {
   position: static;
   width: auto;
 }
-@font-face {
+/* @font-face {
   font-family: "Font Awesome 5 Brands";
   font-style: normal;
   font-weight: 400;
@@ -6337,10 +6337,10 @@ form.submitting .wpcf7-spinner {
       format("embedded-opentype"),
     url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-brands-400.woff2)
       format("woff2"),
-    /* url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-brands-400.woff)
+    url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-brands-400.woff)
       format("woff"),
     url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-brands-400.ttf)
-      format("truetype"), */
+      format("truetype"),
     url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-brands-400.svg)
       format("svg");
 }
@@ -6358,18 +6358,18 @@ form.submitting .wpcf7-spinner {
       format("embedded-opentype"),
     url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-regular-400.woff2)
       format("woff2"),
-    /* url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-regular-400.woff)
+    url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-regular-400.woff)
       format("woff"),
     url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-regular-400.ttf)
-      format("truetype"), */
+      format("truetype"),
     url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-regular-400.svg)
       format("svg");
-}
+} */
 .fab,
 .far {
   font-weight: 400;
 }
-@font-face {
+/* @font-face {
   font-family: "Font Awesome 5 Free";
   font-style: normal;
   font-weight: 900;
@@ -6380,10 +6380,10 @@ form.submitting .wpcf7-spinner {
       format("embedded-opentype"),
     url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-solid-900.woff2)
       format("woff2"),
-    /* url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-solid-900.woff)
+    url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-solid-900.woff)
       format("woff"),
     url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-solid-900.ttf)
-      format("truetype"), */
+      format("truetype"),
     url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-solid-900.svg)
       format("svg");
 }
@@ -6391,7 +6391,7 @@ form.submitting .wpcf7-spinner {
 .far,
 .fas {
   font-family: "Font Awesome 5 Free";
-}
+} */
 .fa,
 .fas {
   font-weight: 900;
