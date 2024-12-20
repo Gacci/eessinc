@@ -5860,26 +5860,8 @@ form.submitting .wpcf7-spinner {
 .wpcf7-reflection > output[hidden] {
   display: none;
 }
-/*!/wp-content/cache/asset-cleanup/css/item/content__uploads__bb-plugin__icons__icon-1534346209__style-css-v9dc5b438e97a8b2546f864823165830cb173c020.css*/
-/*!/wp-content/uploads/bb-plugin/icons/icon-1534346209/style.css*/
-@font-face {
-  font-family: "eess";
-  src: url(../../../uploads/bb-plugin/icons/icon-1534346209/fonts/eess.eot?esoru3);
-  src:
-    url("../../../uploads/bb-plugin/icons/icon-1534346209/fonts/eess.eot?esoru3")
-      format("embedded-opentype"),
-    url(../../../uploads/bb-plugin/icons/icon-1534346209/fonts/eess.ttf?esoru3)
-      format("truetype"),
-    url(../../../uploads/bb-plugin/icons/icon-1534346209/fonts/eess.woff?esoru3)
-      format("woff"),
-    url("../../../uploads/bb-plugin/icons/icon-1534346209/fonts/eess.svg?esoru3")
-      format("svg");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
 .essic {
-  font-family: "eess" !important;
+  /* font-family: "eess" !important; */
   speak: none;
   font-style: normal;
   font-weight: 400;
@@ -8929,8 +8911,6 @@ body:not(.single-fl-theme-layout)
 .fl-node-g04vzybkeqiw .fl-row-content {
   min-width: 0;
 }
-/*!/wp-content/cache/asset-cleanup/css/item/eess__style-css-v206ec9a0ffdc70aebb90ef145a2ab9f84c53ab7c.css*/
-/*!/wp-content/themes/eess/style.css*/
 @font-face {
   font-family: "kiona";
   src: url(../../../themes/eess/fonts/kiona-bold.eot);
