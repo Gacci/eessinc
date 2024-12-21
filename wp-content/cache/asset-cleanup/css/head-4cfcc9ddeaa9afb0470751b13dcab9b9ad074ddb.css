@@ -4668,78 +4668,14 @@
   position: static;
   width: auto;
 }
-/* @font-face {
-  font-family: "Font Awesome 5 Brands";
-  font-style: normal;
-  font-weight: 400;
-  font-display: block;
-  src: url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-brands-400.eot);
-  src:
-    url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-brands-400.eot?)
-      format("embedded-opentype"),
-    url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-brands-400.woff2)
-      format("woff2"),
-    url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-brands-400.woff)
-      format("woff"),
-    url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-brands-400.ttf)
-      format("truetype"),
-    url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-brands-400.svg)
-      format("svg");
-}
-.fab {
-  font-family: "Font Awesome 5 Brands";
-}
-@font-face {
-  font-family: "Font Awesome 5 Free";
-  font-style: normal;
-  font-weight: 400;
-  font-display: block;
-  src: url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-regular-400.eot);
-  src:
-    url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-regular-400.eot?)
-      format("embedded-opentype"),
-    url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-regular-400.woff2)
-      format("woff2"),
-    url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-regular-400.woff)
-      format("woff"),
-    url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-regular-400.ttf)
-      format("truetype"),
-    url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-regular-400.svg)
-      format("svg");
-} */
 .fab,
 .far {
   font-weight: 400;
 }
-/* @font-face {
-  font-family: "Font Awesome 5 Free";
-  font-style: normal;
-  font-weight: 900;
-  font-display: block;
-  src: url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-solid-900.eot);
-  src:
-    url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-solid-900.eot?)
-      format("embedded-opentype"),
-    url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-solid-900.woff2)
-      format("woff2"),
-    url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-solid-900.woff)
-      format("woff"),
-    url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-solid-900.ttf)
-      format("truetype"),
-    url(../../../plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-solid-900.svg)
-      format("svg");
-}
-.fa,
-.far,
-.fas {
-  font-family: "Font Awesome 5 Free";
-} */
 .fa,
 .fas {
   font-weight: 900;
 }
-/*!/wp-content/cache/asset-cleanup/css/item/content__uploads__bb-plugin__cache__9451-layout-css-v03e3b02fa41b2e66e20cf1b037a8e15d14d4833d.css*/
-/*!/wp-content/uploads/bb-plugin/cache/9451-layout.css*/
 .fl-builder-content *,
 .fl-builder-content *:before,
 .fl-builder-content *:after {
