@@ -223,11 +223,6 @@ form.submitting .wpcf7-spinner {
 .wpcf7-reflection > output[hidden] {
   display: none;
 }
-/*!/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/css/all.min.css*/
-/*!
- * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
- * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
- */
 .fa,
 .fab,
 .fad,
@@ -8657,13 +8652,11 @@ body:not(.single-fl-theme-layout)
 .fl-node-g04vzybkeqiw .fl-row-content {
   min-width: 0;
 }
-/*!/wp-content/cache/asset-cleanup/css/item/eess__style-css-v206ec9a0ffdc70aebb90ef145a2ab9f84c53ab7c.css*/
-/*!/wp-content/themes/eess/style.css*/
 @font-face {
   font-family: "kiona";
   src: url(../../../themes/eess/fonts/kiona-bold.eot);
   src:
-    url("https://www.eagleeyeinternationalprotectiveservices.com/wp-content/themes/eess/webfont.eot?")
+    url("https://www.eagleeyeinternationalprotectiveservices.com/wp-content/themes/eess/webfont.eot")
       format("embedded-opentype"),
     url(../../../themes/eess/fonts/kiona-bold.woff2) format("woff2"),
     url(../../../themes/eess/fonts/kiona-bold.woff) format("woff"),
@@ -8676,7 +8669,7 @@ body:not(.single-fl-theme-layout)
   font-family: "kiona";
   src: url(../../../themes/eess/fonts/kiona-bold.eot);
   src:
-    url("https://www.eagleeyeinternationalprotectiveservices.com/wp-content/themes/eess/webfont.eot?")
+    url("https://www.eagleeyeinternationalprotectiveservices.com/wp-content/themes/eess/webfont.eot")
       format("embedded-opentype"),
     url(../../../themes/eess/fonts/kiona-bold.woff2) format("woff2"),
     url(../../../themes/eess/fonts/kiona-bold.woff) format("woff"),
@@ -8689,7 +8682,7 @@ body:not(.single-fl-theme-layout)
   font-family: kiona;
   src: url(../../../themes/eess/fonts/kiona-bold.eot);
   src:
-    url("https://www.eagleeyeinternationalprotectiveservices.com/wp-content/themes/eess/webfont.eot?")
+    url("https://www.eagleeyeinternationalprotectiveservices.com/wp-content/themes/eess/webfont.eot")
       format("embedded-opentype"),
     url(../../../themes/eess/fonts/kiona-bold.woff2) format("woff2"),
     url(../../../themes/eess/fonts/kiona-bold.woff) format("woff"),
@@ -8701,7 +8694,7 @@ body:not(.single-fl-theme-layout)
 .menu .fl-has-submenu .sub-menu a {
   font-size: 16px !important;
 }
-/*!/wp-content/plugins/bb-plugin/css/jquery.magnificpopup.min.css*/
+
 .mfp-bg {
   top: 0;
   left: 0;
