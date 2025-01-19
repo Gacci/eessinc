@@ -38,4 +38,6 @@ jobs:
       # Configure static website hosting on GCS
       - name: Set up Static Website Hosting
         run: |
-          gsutil web set -m index.html -e 404.html gs://eessinc/
+          gsutil iam ch allUsers:objectViewer gs://eessinc
+          gsutil web set -m index.html -e 404.html gs://eessinc
+          gsutil web get gs://eessinc
