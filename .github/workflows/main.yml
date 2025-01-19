@@ -19,16 +19,20 @@ jobs:
         with:
           credentials_json: ${{ secrets.GCP_EESSINC_KEY }}
 
+
       # Extract Google variables
       - name: Extract Google Cloud credentials
         id: extract-credentials
         run: |
           echo "PROJECT_ID=$(echo '${{ secrets.GCP_EESSINC_KEY }}' | jq -r '.project_id')" >> $GITHUB_ENV
+
+          
       # Set up Google Cloud SDK
       - name: Set up Google Cloud SDK
         uses: google-github-actions/setup-gcloud@v1
         with:
           project_id: ${{ env.PROJECT_ID }}  # Replace with your project ID
+
 
       # Deploy to GCS
       - name: Upload files to GCS
