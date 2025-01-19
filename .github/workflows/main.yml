@@ -34,3 +34,8 @@ jobs:
       - name: Upload files to GCS
         run: |
           gsutil -m rsync -r -d ./ gs://eessinc/
+
+      # Configure static website hosting on GCS
+      - name: Set up Static Website Hosting
+        run: |
+          gsutil web set -m index.html -e 404.html gs://eessinc
