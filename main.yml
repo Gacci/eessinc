@@ -1,0 +1,36 @@
+name: Deploy to GCS
+
+on:
+  push:
+    branches:
+      - main  # Replace with your target branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Authenticate with Google Cloud
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v1
+        with:
+          credentials_json: ${{ secrets.GCP_EESSINC_KEY }}
+
+      # Extract Google variables
+      - name: Extract Google Cloud credentials
+        id: extract-credentials
+        run: |
+          echo "PROJECT_ID=$(echo '${{ secrets.GCP_EESSINC_KEY }}' | jq -r '.project_id')" >> $GITHUB_ENV
+      # Set up Google Cloud SDK
+      - name: Set up Google Cloud SDK
+        uses: google-github-actions/setup-gcloud@v1
+        with:
+          project_id: ${{ env.PROJECT_ID }}  # Replace with your project ID
+
+      # Deploy to GCS
+      - name: Upload files to GCS
+        run: |
+          gsutil -m rsync -r -d ./ gs://eessinc/
